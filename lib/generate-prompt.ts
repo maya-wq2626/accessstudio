@@ -32,6 +32,7 @@ WHAT YOU RETURN
 - The app must make up its own practice content in its own JavaScript. ${SELF_CONTENT_LINE}
 - Keep a big pool of practice content: at least 20 questions, words, or problems, more than one round ever needs. Every round picks a different random set from the pool, so the practice feels new each time.
 - For fill-in-the-blank questions, the sentence must show the blank as _____ where the missing word goes, and the missing word must not appear anywhere else in the sentence. Never show a complete sentence and call it fill in the blank.
+- Never ask the student to type an answer. Answers are always chosen by tapping, or by matching two cards. No text boxes for answers.
 - Include a big Listen button that reads the main text aloud with the browser speech feature (window.speechSynthesis). Include a Start over button that starts a new round with fresh questions, words, or problems from the pool, not the same ones again.
 - Use large text (at least 18 pixels for body text) and big tap targets (at least 48 pixels tall). Use high contrast colors, at least 4.5 to 1 for text.
 - Keep the screen calm and simple. One thing to do at a time. Big buttons with clear words on them.

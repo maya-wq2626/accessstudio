@@ -45,7 +45,6 @@ export const DETAIL_QUESTIONS: {
     question: "How do you answer?",
     options: [
       { id: "tap", label: "Tap an answer", prompt: "the student answers by tapping an answer" },
-      { id: "type", label: "Type an answer", prompt: "the student answers by typing an answer" },
       { id: "match", label: "Match two cards", prompt: "the student answers by matching two cards" },
     ],
   },
