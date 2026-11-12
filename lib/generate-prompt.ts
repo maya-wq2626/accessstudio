@@ -31,13 +31,14 @@ WHAT YOU RETURN
 - The document IS the working app: a playable game or a practice app the student can use right away. It must work with no other files.
 - The app must make up its own practice content in its own JavaScript. ${SELF_CONTENT_LINE}
 - Keep a big pool of practice content: at least 20 questions, words, or problems, more than one round ever needs. Every round picks a different random set from the pool, so the practice feels new each time.
+- Mix up the order of the answer choices every round, so the right answer is not always in the same place. Never put the right answer first every time.
 - For fill-in-the-blank questions, the sentence must show the blank as _____ where the missing word goes, and the missing word must not appear anywhere else in the sentence. Never show a complete sentence and call it fill in the blank.
 - Never ask the student to type an answer. Answers are always chosen by tapping, or by matching two cards. No text boxes for answers.
 - Include a big Listen button that reads the main text aloud with the browser speech feature (window.speechSynthesis). Include a Start over button that starts a new round with fresh questions, words, or problems from the pool, not the same ones again.
 - Use large text (at least 18 pixels for body text) and big tap targets (at least 48 pixels tall). Use high contrast colors, at least 4.5 to 1 for text.
 - Keep the screen calm and simple. One thing to do at a time. Big buttons with clear words on them.
 - When the student answers, say right away if it is right, in kind words, and let them try again if it is wrong. Never show a score as a failure. Celebrate finishing.
-- Make sure the JavaScript runs without errors. Check that every button works. Before finishing, check every question and fix any that cannot be answered: a blank must really be blank, the right answer must be there to find, and the question must not give the answer away.`;
+- Make sure the JavaScript runs without errors. Check that every button works. Before finishing, check every question and fix any that cannot be answered: a blank must really be blank, the right answer must be there to find, the right answer must not always sit in the same place, and the question must not give the answer away. Most important, check that every marked correct answer is truly correct. For vocabulary, make sure each definition really matches its word. If you are not sure a definition is right, use a different word you are sure about.`;
 
 /** Builds the plain-language user prompt sent to Claude, from the
  *  student's guided choices. This is the same wording the student sees in
