@@ -47,10 +47,10 @@ export default function Header() {
           aria-hidden="true"
           className="h-[clamp(104px,17vw,168px)] w-full object-cover"
         />
-        <div className="absolute inset-0 flex items-center justify-between px-4 sm:px-6">
+        <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6">
           <Link
             href="/"
-            className="inline-flex min-h-[48px] items-center rounded-full border-2 border-leaf bg-white/95 px-5 py-2 text-xl font-bold text-soil"
+            className="inline-flex min-h-[56px] items-center rounded-full border-2 border-leaf bg-white/95 px-6 py-3 text-2xl font-bold text-soil sm:text-3xl"
             aria-label="AccessStudio home"
           >
             <span aria-hidden="true" className="mr-2 text-leaf">
@@ -59,7 +59,7 @@ export default function Header() {
             AccessStudio
           </Link>
 
-          <div className="relative" ref={menuRef}>
+          <div className="absolute right-4 sm:right-6" ref={menuRef}>
             <button
               ref={buttonRef}
               type="button"

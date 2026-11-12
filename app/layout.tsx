@@ -26,7 +26,7 @@ export default function RootLayout({
         <footer className="border-t-2 border-sage-dark bg-sage px-4 py-8">
           <div className="mx-auto max-w-6xl text-center">
             <p className="text-lg font-bold">AccessStudio</p>
-            <p className="mt-1 text-lg">grow your ideas with Dr. Maya</p>
+            <p className="mt-1 text-lg">Grow your ideas with Dr. Maya</p>
             <p className="mt-2 text-base">
               Made for Dr. Maya&rsquo;s Access to Computers students at Ventura
               College.

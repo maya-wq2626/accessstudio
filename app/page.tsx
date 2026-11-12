@@ -32,7 +32,7 @@ export default async function Home() {
           <span aria-hidden="true" className="mr-2">
             🌱
           </span>
-          grow your ideas with Dr. Maya
+          Grow your ideas with Dr. Maya
         </p>
         <h1
           id="welcome-heading"
